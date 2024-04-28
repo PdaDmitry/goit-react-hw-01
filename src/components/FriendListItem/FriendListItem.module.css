@@ -1,0 +1,29 @@
+.contFriendElem {
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+
+.friendPhoto {
+    margin-bottom: 8px;
+}
+
+
+.friendNameText {
+    font-size: 15px;
+}
+
+.friendStatus {
+    font-size: 10px;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}

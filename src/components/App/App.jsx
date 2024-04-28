@@ -1,5 +1,5 @@
-import friends from '../friends.json';
-import FriendList from './FriendList';
+import friends from '../../friends.json';
+import FriendList from '../FriendList/FriendList';
 
 //export const App = ()=>{};
 function App() {
