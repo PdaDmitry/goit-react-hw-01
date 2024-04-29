@@ -1,9 +1,10 @@
 import FriendListItem from '../FriendListItem/FriendListItem';
+import css from './FriendList.module.css';
 
-function FriendList({ items }) {
+export default function FriendList({ friends }) {
   return (
-    <ul>
-      {items.map(friend => (
+    <ul className={css.contListFriends}>
+      {friends.map(friend => (
         <li key={friend.id}>
           <FriendListItem friend={friend} />
         </li>
@@ -11,5 +12,3 @@ function FriendList({ items }) {
     </ul>
   );
 }
-
-export default FriendList;

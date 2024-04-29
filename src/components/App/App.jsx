@@ -1,13 +1,10 @@
 import friends from '../../friends.json';
 import FriendList from '../FriendList/FriendList';
 
-//export const App = ()=>{};
-function App() {
+export default function App() {
   return (
-    <div>
-      <FriendList items={friends} />
-    </div>
+    <>
+      <FriendList friends={friends} />
+    </>
   );
 }
-
-export default App; //change export to named
