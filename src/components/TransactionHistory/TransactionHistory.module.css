@@ -1,0 +1,13 @@
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+}
+
+.contTable {
+    width: 500px;
+    margin: 20px auto;
+}
