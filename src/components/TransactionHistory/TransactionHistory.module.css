@@ -1,15 +1,11 @@
-table {
-    border-collapse: collapse;
-}
-
 th,
 td {
     border: 1px solid black;
 }
 
 .contTable {
-    width: 500px;
-    text-align: center;
+    width: 520px;
+    border-collapse: collapse;
     margin: 20px auto;
 }
 
@@ -17,6 +13,12 @@ td {
     background-color: rgb(31, 31, 31);
     color: #FFFFFF;
 }
+
+.contTbody td {
+    padding-left: 60px;
+}
+
+
 
 tr:nth-child(2n) {
     background-color: #35333334;

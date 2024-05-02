@@ -11,7 +11,7 @@ export default function TransactionHistory({ items }) {
           <th>Currency</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody className={css.contTbody}>
         {items.map(transaction => (
           <tr key={transaction.id}>
             <TransactionHistoryItem transaction={transaction} />
