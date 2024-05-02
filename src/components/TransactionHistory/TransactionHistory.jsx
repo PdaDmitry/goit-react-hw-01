@@ -4,7 +4,7 @@ import TransactionHistoryItem from '../TransactionHistoryItem/TransactionHistory
 export default function TransactionHistory({ items }) {
   return (
     <table className={css.contTable}>
-      <thead>
+      <thead className={css.contHhead}>
         <tr>
           <th>Type</th>
           <th>Amount</th>

@@ -9,5 +9,15 @@ td {
 
 .contTable {
     width: 500px;
+    text-align: center;
     margin: 20px auto;
+}
+
+.contHhead {
+    background-color: rgb(31, 31, 31);
+    color: #FFFFFF;
+}
+
+tr:nth-child(2n) {
+    background-color: #35333334;
 }
